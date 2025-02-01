@@ -1,0 +1,73 @@
+/* ====== DARK MODE GLOBAL ====== */
+.dark-mode {
+    background-color: #121212 !important;
+    color: white !important;
+}
+
+/* ====== BOTÃO DE TROCA DE TEMA ====== */
+.modo-toggle {
+    padding: 10px 15px !important;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    background-color: #f8f9fa !important;
+    color: black !important;
+    border: 1px solid #ddd;
+}
+
+.dark-mode .modo-toggle {
+    background-color: #333 !important;
+    color: white !important;
+}
+
+/* ====== CONTAINER GERAL ====== */
+.container {
+    padding: 20px !important;
+    border-radius: 10px;
+}
+
+.dark-mode .container {
+    background-color: #1e1e1e !important;
+}
+
+/* ====== BOTÕES ====== */
+.dark-mode .btn {
+    background-color: #333 !important;
+    color: white !important;
+    border: 1px solid #777 !important;
+}
+
+/* ====== LISTA DE TAREFAS ====== */
+.list-group-item {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dark-mode .list-group-item {
+    background-color: #222 !important;
+    color: white !important;
+    border-color: #444 !important;
+}
+
+/* ====== INPUTS ====== */
+.dark-mode input {
+    background-color: #333 !important;
+    color: white !important;
+    border: 1px solid #555 !important;
+}
+
+/* ====== CABEÇALHO ====== */
+header {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.dark-mode header {
+    background-color: #222 !important;
+    color: white !important;
+}
+
+.dark-mode select {
+    background-color: #333 !important;
+    /* fundo escuro */
+    color: #fff !important;
+    /* texto branco */
+    border: 1px solid #555;
+}
